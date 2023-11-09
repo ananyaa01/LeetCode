@@ -27,15 +27,10 @@ class Solution:
                 co1+=1
             elif(nums[i]==ele2):
                 co2+=1
-        print(co1)
-        print(co2)
+        
         ls=[]
-        # if(len(nums)<3):
-        #     return ls
-        # if(len(nums)==1):
-        #     return nums
+        
         mini=len(nums)//3 +1
-        print(mini)
         if(co1>=mini):
             ls.append(ele1)
         if(co2>=mini):
